@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+section{
+    width: 900px;
+    height: 50px;    
+    margin-top: 100px;  
+    font-size: small;
+    font-weight: 700;
+}
+section p{
+    float: left;
+}
+#next{    
+    font-size: small;
+    font-weight: 700;    
+    float: right;        
+}
+#next a{
+    color: black;
+}
+#next a:hover{
+    cursor: pointer;
+    color: #999;
+}
+#next span{
+    margin: 0 5px;
+}
+#first span{
+    
+    margin-right: 20px;
+    font-size: small;
+    font-weight: 700;
+}
+article{
+    width: 900px;
+    height: 1200px;
+    position: relative;     
+}
+#img{
+    background-image: url(img/img05.webp);
+    width: 430px;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    margin: 20px; 
+}
+article h1{
+    position: absolute;
+    top: 20px;
+    left: 470px;
+}
+article #p2 {    
+    position: absolute;
+    top: 70px;
+    left: 470px;   
+}
+article span{
+    font-size: small;
+    position: absolute;
+    top: -6px;
+}
+article label{
+    font-size: small;
+}
+article input{
+    border: 1px solid black;
+    width: 50px;
+}
+article p:nth-of-type(1){
+    font-size: 20px;
+    font-weight: 500;
+}
+article p:nth-of-type(2), p:nth-of-type(3){
+    font-size: 13px;
+    font-weight: 500;
+    width: 350px;
+}
+
+article button{
+    width: 350px;
+}
+article button:hover{
+    cursor: pointer;
+}
+.img2{
+    width: 200px;
+    margin-left: 20px;
+    
+}
+#img1{
+    background-image: url(img/img05.webp);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    display: inline-block; 
+}
